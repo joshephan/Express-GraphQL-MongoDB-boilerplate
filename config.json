@@ -1,0 +1,7 @@
+{
+  "db": {
+    "dbuser": "<MONGODB_USERNAME>",
+    "dbpassword": "<MONGODB_PASSWORD>",
+    "uri": "<MONGODB_URI>"
+  }
+}

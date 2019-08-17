@@ -1,0 +1,37 @@
+{
+  "name": "express-graphql-mongodb-boilerplate",
+  "version": "1.0.0",
+  "description": "Notsun is not sun.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm src/app.js --exec  \"npm run lint && node\"",
+    "start": "nodemon -r esm src/app.js --exec  \"npm run lint && node\"",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "community",
+    "feed",
+    "people",
+    "social",
+    "humor"
+  ],
+  "author": "Sang-Hun Han",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
